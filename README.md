@@ -35,7 +35,11 @@ saber. E caso você conheça alguém que se identidique com o conteúdo, não de
 
 
 <p dir="auto"> Projeto desenvolvido utilizando os conhecimentos adquiridos durante meu III periodo de formação do Curso de GTI
- na disciplina Implementação de Sistemas do <a href="https://www.ifsudestemg.edu.br/muriae"> IF Sudeste MG </a><g-emoji class="g-emoji" alias="hearts" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2665.png">♥</g-emoji> 
+na disciplina Implementação de Sistemas do <a href="https://www.ifsudestemg.edu.br/muriae"> IF Sudeste MG </a>
+:green_heart:
+:green_heart:
+:green_heart: 
+ 
 
 
 
