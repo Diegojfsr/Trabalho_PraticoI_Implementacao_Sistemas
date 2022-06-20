@@ -35,8 +35,8 @@ Implemantar uma aplicação utilizando a IDE Embarcadero Delphi com banco de dad
 saber. E caso você conheça alguém que se identidique com o conteúdo, não deixe de compatilhar.</p>
 
 
-<p dir="auto"> Projeto desenvolvido utilizando a ajuda e os conhecimentos da equipe, 
-<a href=" https://www.dio.me/ "> Digital Innovation One <g-emoji class="g-emoji" alias="hearts" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2665.png">♥</g-emoji> </a></p>
+<p dir="auto"> Projeto desenvolvido utilizando a ajuda e os conhecimentos adquiridos durante a Disciplina, Implementação de Sistemas, 
+<a href=" https://www.ifsudestemg.edu.br/muriae "> IF Sudeste MG <g-emoji class="g-emoji" alias="hearts" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2665.png">♥</g-emoji> </a></p>
   
 
 
