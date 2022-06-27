@@ -86,7 +86,7 @@ CREATE TABLE IF NOT EXISTS `TrabalhoDelphi`.`Pedidos` (
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Pedidos_Vendedores1`
     FOREIGN KEY (`Vendedores_idVendedor`)
-    REFERENCES `mydb`.`Vendedores` (`idVendedor`)
+    REFERENCES `TrabalhoDelphi`.`Vendedores` (`idVendedor`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -120,12 +120,12 @@ CREATE TABLE IF NOT EXISTS `TrabalhoDelphi`.`PedidosProdutos` (
   INDEX `fk_Pedidos_has_Produtos_Pedidos_idx` (`Pedidos_idPedido` ASC) VISIBLE,
   CONSTRAINT `fk_Pedidos_has_Produtos_Pedidos`
     FOREIGN KEY (`Pedidos_idPedido`)
-    REFERENCES `mydb`.`Pedidos` (`idPedido`)
+    REFERENCES `TrabalhoDelphi`.`Pedidos` (`idPedido`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Pedidos_has_Produtos_Produtos1`
     FOREIGN KEY (`Produtos_idProduto`)
-    REFERENCES `mydb`.`Produtos` (`idProduto`)
+    REFERENCES `TrabalhoDelphi`.`Produtos` (`idProduto`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
