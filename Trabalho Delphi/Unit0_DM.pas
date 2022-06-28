@@ -14,14 +14,29 @@ type
   TDM = class(TDataModule)
     FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink;
     FDConnection1: TFDConnection;
-    FDTCadastroClientes: TFDTable;
     DSCadastroClientes: TDataSource;
-    FDTCadastroClientesidcliente: TFDAutoIncField;
-    FDTCadastroClientesidDadosPessoais: TIntegerField;
-    FDTCadastroClientesidpedido: TIntegerField;
-    FDTCadastroClientesidendereco: TIntegerField;
-    DataSource1: TDataSource;
-    FDTableAdapter1: TFDTableAdapter;
+    FDTCadastroCLiente: TFDTable;
+    DSCadastroProdutos: TDataSource;
+    FDTCadastroProdutos: TFDTable;
+    DSQClientes: TDataSource;
+    FDTCadastroProdutosidProduto: TFDAutoIncField;
+    FDTCadastroProdutosProdutoNome: TStringField;
+    FDTCadastroProdutosProdutoPreco: TBCDField;
+    FDTCadastroProdutosProdutoDescricao: TMemoField;
+    FDTCadastroProdutosProdutoImagem: TBlobField;
+    FDTCadastroCLienteidCriente: TFDAutoIncField;
+    FDTCadastroCLienteClienteNome: TStringField;
+    FDTCadastroCLienteClienteSobreNome: TStringField;
+    FDTCadastroCLienteClienteCpf: TStringField;
+    FDTCadastroCLienteClienteTelefone: TStringField;
+    FDTCadastroCLienteClienteEmail: TStringField;
+    FDTCadastroCLienteClienteRua: TStringField;
+    FDTCadastroCLienteClienteNumero: TStringField;
+    FDTCadastroCLienteClienteBairro: TStringField;
+    FDTCadastroCLienteClienteCidade: TStringField;
+    DSCadastroPedidos: TDataSource;
+    FDTable1: TFDTable;
+    FDQClientes: TFDQuery;
   private
     { Private declarations }
   public

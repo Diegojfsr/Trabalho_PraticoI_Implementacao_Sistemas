@@ -1,0 +1,52 @@
+unit Unit2_CadastroClientes;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Mask, Vcl.DBCtrls;
+
+type
+  TForm2_CadastroClientes = class(TForm)
+    Nome: TDBEdit;
+    Sobrenome: TDBEdit;
+    cpf: TDBEdit;
+    Telefone: TDBEdit;
+    Email: TDBEdit;
+    Rua: TDBEdit;
+    Numero: TDBEdit;
+    Bairro: TDBEdit;
+    Cidade: TDBEdit;
+    CANCELAR: TButton;
+    LIMPAR: TButton;
+    GUARDAR: TButton;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Button5: TButton;
+    Button6: TButton;
+    procedure CANCELARClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2_CadastroClientes: TForm2_CadastroClientes;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit0_DM, Unit1_PesquisarClientes;
+
+procedure TForm2_CadastroClientes.CANCELARClick(Sender: TObject);
+begin
+    Form1_PesquisarClientes.showmodal;
+end;
+
+
+
+end.

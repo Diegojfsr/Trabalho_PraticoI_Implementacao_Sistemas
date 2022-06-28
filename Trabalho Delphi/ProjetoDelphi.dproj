@@ -98,10 +98,6 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="Unit1_PesquisarClientes.pas">
-            <Form>Form1_PesquisarClientes</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
         <DCCReference Include="Unit2_CadastroClientes.pas">
             <Form>Form2_CadastroClientes</Form>
             <FormType>dfm</FormType>
@@ -110,6 +106,14 @@
             <Form>DM</Form>
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Unit1_PesquisarClientes.pas">
+            <Form>Form1_PesquisarClientes</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Unit2_CadastroProdutos.pas">
+            <Form>Form1</Form>
+            <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
