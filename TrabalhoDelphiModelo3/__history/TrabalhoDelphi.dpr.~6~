@@ -1,0 +1,20 @@
+program TrabalhoDelphi;
+
+uses
+  Vcl.Forms,
+  UnitFormPrincipal in 'view\UnitFormPrincipal.pas' {Form_Principal},
+  UnitFormCadastrarClientes in 'view\UnitFormCadastrarClientes.pas' {Form_CadastrarClientes},
+  Unit_ClientesModel in 'model\Unit_ClientesModel.pas',
+  Unit_ClientesController in 'controller\Unit_ClientesController.pas',
+  Unit_DataModuleConection in 'dao\Unit_DataModuleConection.pas' {DataModuleConection: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm_Principal, Form_Principal);
+  Application.CreateForm(TForm_CadastrarClientes, Form_CadastrarClientes);
+  Application.CreateForm(TDataModuleConection, DataModuleConection);
+  Application.Run;
+end.

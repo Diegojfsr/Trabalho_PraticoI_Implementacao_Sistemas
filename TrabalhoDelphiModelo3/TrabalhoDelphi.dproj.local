@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/04/19 12:51:09.000.163,=C:\Users\diego\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/04/23 17:31:33.000.910,=C:\Users\diego\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/01 01:13:43.000.877,=C:\Users\diego\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/29 12:24:23.000.336,=C:\Users\diego\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/29 13:08:52.000.220,=C:\Users\diego\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/06/29 15:16:40.000.376,C:\Users\diego\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\UnitFormPrincipal.pas</Transaction>
+    <Transaction>2022/06/29 15:16:40.000.376,C:\Users\diego\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\UnitFormPrincipal.dfm</Transaction>
+    <Transaction>2022/06/29 15:17:00.000.120,C:\Users\diego\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\TrabalhoDelphi.dproj</Transaction>
+    <Transaction>2022/06/29 17:05:06.000.399,=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/29 17:07:13.000.545,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\UnitFormCadastrarClientes.pas=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/29 17:07:13.000.545,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\UnitFormCadastrarClientes.dfm=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.dfm</Transaction>
+    <Transaction>2022/06/29 19:40:53.000.477,=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/29 19:41:36.000.664,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\model\Unit_ClienteModel.pas=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/29 20:49:22.000.874,=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/29 20:50:02.000.850,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\controller\Unit_ClienteController.pas=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/29 20:57:41.000.023,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\model\Unit_ClienteModel.pas=</Transaction>
+    <Transaction>2022/06/29 20:57:50.000.549,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\controller\Unit_ClienteController.pas=</Transaction>
+    <Transaction>2022/06/29 20:58:15.000.890,=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/29 20:59:37.000.390,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\model\Unit_ClientesModel.pas=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/29 22:22:12.000.515,=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/29 22:23:18.000.421,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\controller\Unit_ClientesController.pas=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/29 22:33:37.000.241,=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/29 22:37:59.000.516,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\dao\Unit_DataModuleConection.dfm=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.dfm</Transaction>
+    <Transaction>2022/06/29 22:37:59.000.516,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\dao\Unit_DataModuleConection.pas=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/30 13:30:13.000.748,=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/30 13:37:28.000.629,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.dfm=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\UnitFormProdutos.dfm</Transaction>
+    <Transaction>2022/06/30 13:37:28.000.629,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\UnitFormProdutos.pas</Transaction>
+    <Transaction>2022/06/30 13:46:06.000.733,=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/30 13:51:05.000.120,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\UnitFormClientes.pas</Transaction>
+    <Transaction>2022/06/30 13:51:05.000.120,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.dfm=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\UnitFormClientes.dfm</Transaction>
+    <Transaction>2022/06/30 15:05:05.000.633,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\UnitFormCadastrarClientes.pas=</Transaction>
+    <Transaction>2022/06/30 20:38:01.000.193,=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/30 20:42:28.000.683,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\Unit_FormPesquisarClientes.pas=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/30 20:42:28.000.683,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\Unit_FormPesquisarClientes.dfm=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.dfm</Transaction>
+    <Transaction>2022/06/30 20:42:39.000.286,=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/30 20:47:05.000.048,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\Unit_FormCadastrarClientes.dfm=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.dfm</Transaction>
+    <Transaction>2022/06/30 20:47:05.000.048,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\Unit_FormCadastrarClientes.pas=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/30 21:11:38.000.340,=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/30 21:16:47.000.838,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\Unit_FormPesquisarProdutos.pas</Transaction>
+    <Transaction>2022/06/30 21:16:47.000.838,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.dfm=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\Unit_FormPesquisarProdutos.dfm</Transaction>
+    <Transaction>2022/06/30 21:23:02.000.652,=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/30 21:26:06.000.730,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.pas=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\Unit_FormCadastrarProdutos.pas</Transaction>
+    <Transaction>2022/06/30 21:26:06.000.730,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\Unit1.dfm=C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\Unit_FormCadastrarProdutos.dfm</Transaction>
+    <Transaction>2022/07/01 01:29:10.651,C:\Users\diego\OneDrive\Área de Trabalho\TrabalhoDelphi\view\UnitFormProdutos.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

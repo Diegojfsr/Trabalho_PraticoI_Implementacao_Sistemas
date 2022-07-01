@@ -1,0 +1,49 @@
+unit UnitFormCadastrarClientes;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.ComCtrls;
+
+type
+  TForm_CadastrarClientes = class(TForm)
+    Panel_RodaPe: TPanel;
+    Button_Fechar: TButton;
+    PageControl_Principal: TPageControl;
+    TabSheet_Pesquisa: TTabSheet;
+    TabSheet_Cadastro: TTabSheet;
+    Panel_Filtro: TPanel;
+    LabeledEditPesquisar: TLabeledEdit;
+    Button_Pesquisar: TButton;
+    procedure FormKeyPress(Sender: TObject; var Key: Char);
+    procedure Button_FecharClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form_CadastrarClientes: TForm_CadastrarClientes;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm_CadastrarClientes.Button_FecharClick(Sender: TObject);
+begin
+       close;
+end;
+
+procedure TForm_CadastrarClientes.FormKeyPress(Sender: TObject; var Key: Char);
+begin
+ if Key = #13 then
+   begin
+      Key := #0;
+      Perform(WM_NEXTDLGCTL, 0, 0);
+   end;
+
+end;
+
+end.

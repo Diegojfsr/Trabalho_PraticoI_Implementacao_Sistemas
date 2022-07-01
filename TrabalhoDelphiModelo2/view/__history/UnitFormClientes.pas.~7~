@@ -1,0 +1,60 @@
+unit UnitFormClientes;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ComCtrls, Vcl.StdCtrls, Vcl.ExtCtrls,
+  Data.DB, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TForm_Clientes = class(TForm)
+    PageControl_Clientes: TPageControl;
+    TabSheet_PesquisarClientes: TTabSheet;
+    TabSheet_CadastrarClientes: TTabSheet;
+    LabeledEdit_Clientes: TLabeledEdit;
+    ButtonPesquisarClientes: TButton;
+    DBGrid_Clientes: TDBGrid;
+    LabeledEdit_Nome: TLabeledEdit;
+    LabeledEdit_Sobrenome: TLabeledEdit;
+    LabeledEdit_CpfCnpj: TLabeledEdit;
+    LabeledEdit_Telefone: TLabeledEdit;
+    LabeledEdit_Email: TLabeledEdit;
+    LabeledEdit_Rua: TLabeledEdit;
+    LabeledEdit_Numero: TLabeledEdit;
+    LabeledEdit_Cidade: TLabeledEdit;
+    LabeledEdit_Bairro: TLabeledEdit;
+    Panel_PesquisarClientes: TPanel;
+    ButtonCancelar: TButton;
+    ButtonLimpar: TButton;
+    Button_Guardar: TButton;
+    Panel1: TPanel;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    procedure Button_CancelarClick(Sender: TObject);
+    procedure ButtonCancelarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form_Clientes: TForm_Clientes;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm_Clientes.ButtonCancelarClick(Sender: TObject);
+begin
+  close;
+end;
+
+procedure TForm_Clientes.Button_CancelarClick(Sender: TObject);
+begin
+  close;
+end;
+
+end.
