@@ -136,4 +136,67 @@ object Form_CadastrarClientes: TForm_CadastrarClientes
       TabOrder = 2
     end
   end
+  object DBEdit_Nome: TDBEdit
+    Left = 17
+    Top = 21
+    Width = 264
+    Height = 21
+    TabOrder = 10
+  end
+  object DBEdit_Sobrenome: TDBEdit
+    Left = 304
+    Top = 21
+    Width = 281
+    Height = 21
+    TabOrder = 11
+  end
+  object DBEdit_CpfCnpj: TDBEdit
+    Left = 17
+    Top = 64
+    Width = 121
+    Height = 21
+    TabOrder = 12
+  end
+  object DBEdit_Telefone: TDBEdit
+    Left = 144
+    Top = 64
+    Width = 137
+    Height = 21
+    TabOrder = 13
+  end
+  object DBEdit_Email: TDBEdit
+    Left = 304
+    Top = 64
+    Width = 281
+    Height = 21
+    TabOrder = 14
+  end
+  object DBEdit_Rua: TDBEdit
+    Left = 17
+    Top = 112
+    Width = 264
+    Height = 21
+    TabOrder = 15
+  end
+  object DBEdit_Numero: TDBEdit
+    Left = 304
+    Top = 112
+    Width = 121
+    Height = 21
+    TabOrder = 16
+  end
+  object DBEdit_Cidade: TDBEdit
+    Left = 17
+    Top = 152
+    Width = 264
+    Height = 21
+    TabOrder = 17
+  end
+  object DBEdit_Bairro: TDBEdit
+    Left = 304
+    Top = 152
+    Width = 281
+    Height = 21
+    TabOrder = 18
+  end
 end

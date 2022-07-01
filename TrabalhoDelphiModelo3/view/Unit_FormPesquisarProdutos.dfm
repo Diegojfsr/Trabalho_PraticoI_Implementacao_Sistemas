@@ -45,11 +45,15 @@ object Form_PesquisarProdutos: TForm_PesquisarProdutos
     TitleFont.Style = []
   end
   object Panel2: TPanel
-    Left = -8
-    Top = 260
-    Width = 643
+    Left = 0
+    Top = 259
+    Width = 635
     Height = 41
+    Align = alBottom
     TabOrder = 3
+    ExplicitLeft = -8
+    ExplicitTop = 260
+    ExplicitWidth = 643
     object Button_Cancelar: TButton
       Left = 516
       Top = 8

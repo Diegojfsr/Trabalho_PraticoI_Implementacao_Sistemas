@@ -9,7 +9,6 @@ uses
 
 type
   TForm_Principal = class(TForm)
-    Panel_Principal: TPanel;
     Panel_Clientes: TPanel;
     Shape_Clientes: TShape;
     Image_Clientes: TImage;
@@ -19,7 +18,7 @@ type
     Image_Produtos: TImage;
     Label_Produtos: TLabel;
     Panel_Pedidos: TPanel;
-    Panel_Funcionarios: TPanel;
+    Panel_Vendedores: TPanel;
     Shape_Pedidos: TShape;
     Image_Pedidos: TImage;
     Label_Pedidos: TLabel;

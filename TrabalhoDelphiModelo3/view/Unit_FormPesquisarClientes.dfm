@@ -2,8 +2,8 @@ object Form_PesquisarClientes: TForm_PesquisarClientes
   Left = 0
   Top = 0
   Caption = 'Pesquisar Clientes'
-  ClientHeight = 298
-  ClientWidth = 634
+  ClientHeight = 300
+  ClientWidth = 635
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -15,10 +15,11 @@ object Form_PesquisarClientes: TForm_PesquisarClientes
   PixelsPerInch = 96
   TextHeight = 13
   object Panel_PesquisarClientes: TPanel
-    Left = -6
-    Top = 258
-    Width = 641
+    Left = 0
+    Top = 259
+    Width = 635
     Height = 41
+    Align = alBottom
     TabOrder = 0
     object Button_Cancelar: TButton
       Left = 516
@@ -48,7 +49,7 @@ object Form_PesquisarClientes: TForm_PesquisarClientes
   end
   object DBGrid_Clientes: TDBGrid
     Left = 24
-    Top = 64
+    Top = 75
     Width = 593
     Height = 161
     TabOrder = 1
@@ -75,6 +76,7 @@ object Form_PesquisarClientes: TForm_PesquisarClientes
     Height = 25
     Caption = 'PESQUISAR'
     TabOrder = 3
+    OnClick = Button_PesquisarClientesClick
   end
   object Button_NovoCliente: TButton
     Left = 520
@@ -84,5 +86,12 @@ object Form_PesquisarClientes: TForm_PesquisarClientes
     Caption = 'NOVO CLIENTE'
     TabOrder = 4
     OnClick = Button_NovoClienteClick
+  end
+  object DBEdit_PesquisarClientes: TDBEdit
+    Left = 24
+    Top = 24
+    Width = 249
+    Height = 21
+    TabOrder = 5
   end
 end

@@ -4,7 +4,8 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Mask,
+  Vcl.DBCtrls;
 
 type
   TForm_CadastrarClientes = class(TForm)
@@ -21,6 +22,15 @@ type
     Button1: TButton;
     Button2: TButton;
     Button3: TButton;
+    DBEdit_Nome: TDBEdit;
+    DBEdit_Sobrenome: TDBEdit;
+    DBEdit_CpfCnpj: TDBEdit;
+    DBEdit_Telefone: TDBEdit;
+    DBEdit_Email: TDBEdit;
+    DBEdit_Rua: TDBEdit;
+    DBEdit_Numero: TDBEdit;
+    DBEdit_Cidade: TDBEdit;
+    DBEdit_Bairro: TDBEdit;
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
