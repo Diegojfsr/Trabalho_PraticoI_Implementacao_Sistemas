@@ -1,0 +1,22 @@
+program TrabalhoDelphi;
+
+uses
+  Vcl.Forms,
+  UnitFormPrincipal in 'view\UnitFormPrincipal.pas' {Form_Principal},
+  Unit_ClientesModel in 'model\Unit_ClientesModel.pas',
+  Unit_ClientesController in 'controller\Unit_ClientesController.pas',
+  Unit_DataModuleConection in 'dao\Unit_DataModuleConection.pas' {DataModuleConection: TDataModule},
+  UnitFormProdutos in 'view\UnitFormProdutos.pas' {Form_Produtos},
+  UnitFormClientes in 'view\UnitFormClientes.pas' {Form_Clientes};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm_Principal, Form_Principal);
+  Application.CreateForm(TDataModuleConection, DataModuleConection);
+  Application.CreateForm(TForm_Produtos, Form_Produtos);
+  Application.CreateForm(TForm_Clientes, Form_Clientes);
+  Application.Run;
+end.

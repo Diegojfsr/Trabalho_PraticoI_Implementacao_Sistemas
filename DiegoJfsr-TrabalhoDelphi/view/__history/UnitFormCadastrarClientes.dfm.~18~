@@ -1,0 +1,284 @@
+object Form_CadastrarClientes: TForm_CadastrarClientes
+  Left = 0
+  Top = 0
+  Caption = 'Cadastrar Clientes'
+  ClientHeight = 550
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  KeyPreview = True
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnKeyPress = FormKeyPress
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel_RodaPe: TPanel
+    Left = 0
+    Top = 509
+    Width = 635
+    Height = 41
+    Align = alBottom
+    BevelOuter = bvNone
+    TabOrder = 1
+    ExplicitLeft = 280
+    ExplicitTop = 208
+    ExplicitWidth = 185
+    object Button_Fechar: TButton
+      Left = 528
+      Top = 8
+      Width = 75
+      Height = 25
+      Caption = 'FECHAR'
+      TabOrder = 0
+      OnClick = Button_FecharClick
+    end
+  end
+  object PageControl_Principal: TPageControl
+    Left = 0
+    Top = 0
+    Width = 635
+    Height = 509
+    ActivePage = TabSheet_Cadastro
+    Align = alClient
+    TabOrder = 0
+    ExplicitLeft = 144
+    ExplicitTop = 96
+    ExplicitWidth = 289
+    ExplicitHeight = 193
+    object TabSheet_Pesquisa: TTabSheet
+      Caption = 'TabSheet_Pesquisa'
+      object Panel_Filtro: TPanel
+        Left = 0
+        Top = 0
+        Width = 627
+        Height = 73
+        Align = alTop
+        BevelOuter = bvNone
+        Color = clSilver
+        ParentBackground = False
+        TabOrder = 0
+        object LabeledEditPesquisar: TLabeledEdit
+          Left = 72
+          Top = 27
+          Width = 265
+          Height = 21
+          EditLabel.Width = 117
+          EditLabel.Height = 13
+          EditLabel.Caption = 'Digite o Nome do Cliente'
+          TabOrder = 0
+        end
+        object Button_Pesquisar: TButton
+          Left = 336
+          Top = 25
+          Width = 75
+          Height = 25
+          Caption = 'PESQUISAR'
+          TabOrder = 1
+        end
+      end
+      object Panel_BotoesPesquisa: TPanel
+        Left = 0
+        Top = 440
+        Width = 627
+        Height = 41
+        Align = alBottom
+        BevelOuter = bvNone
+        Color = clSilver
+        ParentBackground = False
+        TabOrder = 1
+        ExplicitLeft = 160
+        ExplicitTop = 144
+        ExplicitWidth = 185
+        object Button_Novo: TButton
+          Left = 362
+          Top = 3
+          Width = 75
+          Height = 25
+          Caption = 'NOVO'
+          TabOrder = 0
+        end
+        object Button_Detalhar: TButton
+          Left = 443
+          Top = 3
+          Width = 75
+          Height = 25
+          Caption = 'DETALHAR'
+          TabOrder = 1
+        end
+        object Button_Excluir: TButton
+          Left = 524
+          Top = 3
+          Width = 75
+          Height = 25
+          Caption = 'EXCLUIR'
+          TabOrder = 2
+        end
+      end
+      object DBGrid1: TDBGrid
+        AlignWithMargins = True
+        Left = 3
+        Top = 76
+        Width = 621
+        Height = 361
+        Align = alClient
+        DataSource = DataSource_Pesquisa
+        DrawingStyle = gdsGradient
+        TabOrder = 2
+        TitleFont.Charset = DEFAULT_CHARSET
+        TitleFont.Color = clWindowText
+        TitleFont.Height = -11
+        TitleFont.Name = 'Tahoma'
+        TitleFont.Style = []
+      end
+    end
+    object TabSheet_Cadastro: TTabSheet
+      Caption = 'TabSheet_Cadastro'
+      ImageIndex = 1
+      object LabeledEdit_Nome: TLabeledEdit
+        Left = 40
+        Top = 72
+        Width = 121
+        Height = 21
+        EditLabel.Width = 27
+        EditLabel.Height = 13
+        EditLabel.Caption = 'Nome'
+        TabOrder = 0
+      end
+      object LabeledEdit_Sobrenome: TLabeledEdit
+        Left = 192
+        Top = 72
+        Width = 121
+        Height = 21
+        EditLabel.Width = 54
+        EditLabel.Height = 13
+        EditLabel.Caption = 'Sobrenome'
+        TabOrder = 1
+      end
+      object LabeledEdit_Cpf: TLabeledEdit
+        Left = 336
+        Top = 72
+        Width = 121
+        Height = 21
+        EditLabel.Width = 17
+        EditLabel.Height = 13
+        EditLabel.Caption = 'Cpf'
+        TabOrder = 2
+      end
+      object LabeledEdit_Telefone: TLabeledEdit
+        Left = 40
+        Top = 128
+        Width = 121
+        Height = 21
+        EditLabel.Width = 42
+        EditLabel.Height = 13
+        EditLabel.Caption = 'Telefone'
+        TabOrder = 3
+      end
+      object LabeledEdit_Email: TLabeledEdit
+        Left = 192
+        Top = 128
+        Width = 121
+        Height = 21
+        EditLabel.Width = 24
+        EditLabel.Height = 13
+        EditLabel.Caption = 'Email'
+        TabOrder = 4
+      end
+      object LabeledEdit_Rua: TLabeledEdit
+        Left = 40
+        Top = 232
+        Width = 273
+        Height = 21
+        EditLabel.Width = 19
+        EditLabel.Height = 13
+        EditLabel.Caption = 'Rua'
+        TabOrder = 5
+      end
+      object LabeledEdit_Numero: TLabeledEdit
+        Left = 336
+        Top = 232
+        Width = 121
+        Height = 21
+        EditLabel.Width = 37
+        EditLabel.Height = 13
+        EditLabel.Caption = 'Numero'
+        TabOrder = 6
+      end
+      object LabeledEdit_Bairro: TLabeledEdit
+        Left = 336
+        Top = 272
+        Width = 225
+        Height = 21
+        EditLabel.Width = 28
+        EditLabel.Height = 13
+        EditLabel.Caption = 'Bairro'
+        TabOrder = 8
+      end
+      object LabeledEdit_Cidade: TLabeledEdit
+        Left = 40
+        Top = 272
+        Width = 273
+        Height = 21
+        EditLabel.Width = 33
+        EditLabel.Height = 13
+        EditLabel.Caption = 'Cidade'
+        TabOrder = 7
+      end
+      object Panel_BotoesCadastro: TPanel
+        Left = 0
+        Top = 440
+        Width = 627
+        Height = 41
+        Align = alBottom
+        BevelOuter = bvNone
+        Color = clSilver
+        ParentBackground = False
+        TabOrder = 9
+        ExplicitLeft = 160
+        ExplicitTop = 432
+        ExplicitWidth = 185
+        object Button_Listar: TButton
+          Left = 120
+          Top = 8
+          Width = 75
+          Height = 25
+          Caption = 'LISTAR'
+          TabOrder = 2
+        end
+        object Button_Alterar: TButton
+          Left = 224
+          Top = 8
+          Width = 75
+          Height = 25
+          Caption = 'ALTERAR'
+          TabOrder = 0
+        end
+        object Button_Gravar: TButton
+          Left = 328
+          Top = 8
+          Width = 75
+          Height = 25
+          Caption = 'GRAVAR'
+          TabOrder = 1
+        end
+        object Button_Cancelar: TButton
+          Left = 456
+          Top = 8
+          Width = 75
+          Height = 25
+          Caption = 'CANCELAR'
+          TabOrder = 3
+        end
+      end
+    end
+  end
+  object DataSource_Pesquisa: TDataSource
+    Left = 532
+    Top = 384
+  end
+end

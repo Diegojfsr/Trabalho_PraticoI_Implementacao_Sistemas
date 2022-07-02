@@ -1,0 +1,33 @@
+unit Unit_FormPesquisarProdutos;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Data.DB,
+  Vcl.Grids, Vcl.DBGrids;
+
+type
+  TForm_PesquisarProdutos = class(TForm)
+    Button_PesquisarProdutos: TButton;
+    LabeledEdit_Produtos: TLabeledEdit;
+    DBGrid1: TDBGrid;
+    Panel2: TPanel;
+    Button_Cancelar: TButton;
+    Button_Limpar: TButton;
+    Button_Editar: TButton;
+    Button_NovoCliente: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form_PesquisarProdutos: TForm_PesquisarProdutos;
+
+implementation
+
+{$R *.dfm}
+
+end.

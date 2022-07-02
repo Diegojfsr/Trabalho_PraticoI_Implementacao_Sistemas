@@ -1,0 +1,26 @@
+unit Unit_ClientesModel;
+
+interface
+
+type
+  TCliente = class
+    private
+    public
+      property idCliente: read idCliente wride idCliente;
+      property ClienteNome: string;
+      property ClienteSobreNome: string;
+      property ClienteCpf: string;
+      property ClienteTelefone: string;
+      property ClienteEmail: string;
+
+      property ClienteRua: string;
+      property ClienteNumero: string;
+      property ClienteBairro: string;
+      property ClienteCidade: string;
+  end;
+
+
+
+implementation
+
+end.
