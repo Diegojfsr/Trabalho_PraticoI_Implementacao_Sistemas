@@ -1,0 +1,24 @@
+unit Unit_FormPesquisarVendedores;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+
+type
+  TForm_PesquisarVendedores = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form_PesquisarVendedores: TForm_PesquisarVendedores;
+
+implementation
+
+{$R *.dfm}
+
+end.

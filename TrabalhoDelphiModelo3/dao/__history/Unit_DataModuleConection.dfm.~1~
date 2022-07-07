@@ -1,9 +1,0 @@
-object DataModuleConection: TDataModuleConection
-  OldCreateOrder = False
-  Height = 150
-  Width = 215
-  object SQLConnection: TSQLConnection
-    Left = 144
-    Top = 80
-  end
-end

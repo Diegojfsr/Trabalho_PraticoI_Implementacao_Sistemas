@@ -100,9 +100,8 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="view\UnitFormPrincipal.pas">
+        <DCCReference Include="view\Unit_FormPrincipal.pas">
             <Form>Form_Principal</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="model\Unit_ClientesModel.pas"/>
         <DCCReference Include="controller\Unit_ClientesController.pas"/>
@@ -125,6 +124,14 @@
         </DCCReference>
         <DCCReference Include="view\Unit_FormCadastrarProdutos.pas">
             <Form>Form_CadastrarProdutos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="view\Unit_FormPesquisarVendedores.pas">
+            <Form>Form_PesquisarVendedores</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="view\Unit_PesquisarPedidos.pas">
+            <Form>Form_PesquisarPedidos</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">

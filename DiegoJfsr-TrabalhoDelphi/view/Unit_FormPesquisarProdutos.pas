@@ -48,12 +48,12 @@ end;
 procedure TForm_PesquisarProdutos.Button_PesquisarProdutosClick(
   Sender: TObject);
 begin
-    //Inicio codigo de pesquisa Produtos.
-    //DataModuleConection.FDQuery_PesquisarProdutos.Close;
+  //Inicio codigo de pesquisa Produtos.
+    DataModuleConection.FDQuery_PesquisarClientes.Close;
 
-      //DataModuleConection.FDQuery_PesquisarProdutos.SQL[1] :=  'WHERE ClienteNome like ' + '''%' + LabeledEdit_Produtos.Text + '%''';
+      DataModuleConection.FDQuery_PesquisarProdutos.SQL[1] :=  'WHERE ProdutoNome like ' + '''%' + LabeledEdit_Produtos.Text + '%''';
 
-   //DataModuleConection.FDQuery_PesquisarProdutos.Open;
+   DataModuleConection.FDQuery_PesquisarProdutos.Open;
 
 end;
 

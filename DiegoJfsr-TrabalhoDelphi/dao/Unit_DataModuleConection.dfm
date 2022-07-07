@@ -11,8 +11,8 @@ object DataModuleConection: TDataModuleConection
   end
   object DataSource_PesquisarClientes: TDataSource
     DataSet = FDQuery_PesquisarClientes
-    Left = 64
-    Top = 224
+    Left = 192
+    Top = 128
   end
   object FDQuery_PesquisarClientes: TFDQuery
     Connection = FDConnection
@@ -33,8 +33,67 @@ object DataModuleConection: TDataModuleConection
       'Password=root'
       'Server=localhost'
       'DriverID=MySQL')
-    Connected = True
+    Left = 208
+    Top = 16
+  end
+  object FDQuery_PesquisarProdutos: TFDQuery
+    Connection = FDConnection
+    SQL.Strings = (
+      'Select  * from produtos'
+      ''
+      ''
+      ''
+      ''
+      ''
+      ''
+      ''
+      ''
+      ''
+      ''
+      '')
     Left = 72
-    Top = 80
+    Top = 240
+  end
+  object DataSource_PesquisarProdutos: TDataSource
+    DataSet = FDQuery_PesquisarProdutos
+    Left = 216
+    Top = 232
+  end
+  object FDQuery_PesquisarVendedores: TFDQuery
+    Connection = FDConnection
+    SQL.Strings = (
+      'Select  * from vendedores'
+      ''
+      ''
+      ''
+      ''
+      ''
+      ''
+      '')
+    Left = 72
+    Top = 344
+  end
+  object DataSource_PesquisarVendedores: TDataSource
+    DataSet = FDQuery_PesquisarVendedores
+    Left = 200
+    Top = 328
+  end
+  object FDQuery_PesquisarPedidos: TFDQuery
+    Connection = FDConnection
+    SQL.Strings = (
+      'Select  * from pedidos'
+      ''
+      ''
+      ''
+      ''
+      ''
+      '')
+    Left = 80
+    Top = 424
+  end
+  object DataSource_PesquisarPedidos: TDataSource
+    DataSet = FDQuery_PesquisarPedidos
+    Left = 200
+    Top = 416
   end
 end
