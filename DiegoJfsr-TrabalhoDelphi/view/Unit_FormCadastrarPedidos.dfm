@@ -45,4 +45,123 @@ object Form_CadastrarPedidos: TForm_CadastrarPedidos
       TabOrder = 2
     end
   end
+  object LabeledEdit_NomeCliente: TLabeledEdit
+    Left = 56
+    Top = 24
+    Width = 217
+    Height = 21
+    EditLabel.Width = 63
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Nome Cliente'
+    TabOrder = 1
+  end
+  object DBEdit_NomeCliente: TDBEdit
+    Left = 56
+    Top = 24
+    Width = 217
+    Height = 21
+    TabOrder = 2
+  end
+  object LabeledEdit_SobrenomeCliente: TLabeledEdit
+    Left = 296
+    Top = 24
+    Width = 233
+    Height = 21
+    EditLabel.Width = 90
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Sobrenome Cliente'
+    TabOrder = 3
+  end
+  object DBEdit_SobrenomeCliente: TDBEdit
+    Left = 296
+    Top = 24
+    Width = 233
+    Height = 21
+    TabOrder = 4
+  end
+  object LabeledEdit_NomeVendedor: TLabeledEdit
+    Left = 56
+    Top = 64
+    Width = 217
+    Height = 21
+    EditLabel.Width = 76
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Nome Vendedor'
+    TabOrder = 5
+  end
+  object DBEditNomeVendedor: TDBEdit
+    Left = 56
+    Top = 64
+    Width = 217
+    Height = 21
+    TabOrder = 6
+  end
+  object LabeledEdit_SobrenomeVendedor: TLabeledEdit
+    Left = 296
+    Top = 64
+    Width = 233
+    Height = 21
+    EditLabel.Width = 103
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Sobrenome Vendedor'
+    TabOrder = 7
+  end
+  object DBEdit_SobrenomeVendedor: TDBEdit
+    Left = 296
+    Top = 64
+    Width = 233
+    Height = 21
+    TabOrder = 8
+  end
+  object LabeledEdit_DataPedido: TLabeledEdit
+    Left = 56
+    Top = 120
+    Width = 121
+    Height = 21
+    EditLabel.Width = 58
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Data Pedido'
+    TabOrder = 9
+  end
+  object DBEdit_DataPedido: TDBEdit
+    Left = 56
+    Top = 120
+    Width = 121
+    Height = 21
+    TabOrder = 10
+  end
+  object LabeledEdit_FretePedido: TLabeledEdit
+    Left = 200
+    Top = 120
+    Width = 121
+    Height = 21
+    EditLabel.Width = 61
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Frete Pedido'
+    TabOrder = 11
+  end
+  object DBEdit_FretePedido: TDBEdit
+    Left = 200
+    Top = 120
+    Width = 121
+    Height = 21
+    TabOrder = 12
+  end
+  object LabeledEdit_PrecoTotalPedido: TLabeledEdit
+    Left = 56
+    Top = 200
+    Width = 121
+    Height = 21
+    EditLabel.Width = 89
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Preco Total Pedido'
+    TabOrder = 13
+  end
+  object DBEdit_PrecoTotalPedido: TDBEdit
+    Left = 56
+    Top = 200
+    Width = 121
+    Height = 21
+    TabOrder = 14
+  end
 end
