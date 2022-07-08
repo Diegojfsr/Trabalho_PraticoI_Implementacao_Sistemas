@@ -40,7 +40,8 @@ Implemantar uma aplicação utilizando a IDE Embarcadero Delphi com banco de dad
 
 
 <p dir="auto">Este repositório foi criado para fins de estudo, então contribua com ele. Se te ajudei de alguma forma, ficarei feliz em
-saber. E caso você conheça alguém que se identidique com o conteúdo, não deixe de compatilhar.</p>
+saber. E caso você conheça alguém que se identidique com o conteúdo, não deixe de compatilhar.
+</p>
 
 
 <p dir="auto"> 
