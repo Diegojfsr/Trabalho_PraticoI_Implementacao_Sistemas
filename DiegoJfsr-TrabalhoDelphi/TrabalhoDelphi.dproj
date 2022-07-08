@@ -130,12 +130,16 @@
             <Form>Form_PesquisarVendedores</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="view\Unit_PesquisarPedidos.pas">
+        <DCCReference Include="view\Unit_FormPesquisarPedidos.pas">
             <Form>Form_PesquisarPedidos</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="view\Unit_FormCadastrarVendedores.pas">
             <Form>Form_CadastrarVendedores</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="view\Unit_FormCadastrarPedidos.pas">
+            <Form>Form_CadastrarPedidos</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">

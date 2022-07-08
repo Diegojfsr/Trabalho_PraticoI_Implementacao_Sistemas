@@ -51,7 +51,7 @@ implementation
 {$R *.dfm}
 
 uses Unit_FormPesquisarClientes, Unit_FormPesquisarProdutos,
-  Unit_PesquisarPedidos, Unit_FormPesquisarVendedores;
+  Unit_FormPesquisarPedidos, Unit_FormPesquisarVendedores;
 
 
 

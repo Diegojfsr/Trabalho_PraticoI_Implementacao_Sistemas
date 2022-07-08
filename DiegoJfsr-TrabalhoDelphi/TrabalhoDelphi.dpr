@@ -10,8 +10,9 @@ uses
   Unit_FormPesquisarProdutos in 'view\Unit_FormPesquisarProdutos.pas' {Form_PesquisarProdutos},
   Unit_FormCadastrarProdutos in 'view\Unit_FormCadastrarProdutos.pas' {Form_CadastrarProdutos},
   Unit_FormPesquisarVendedores in 'view\Unit_FormPesquisarVendedores.pas' {Form_PesquisarVendedores},
-  Unit_PesquisarPedidos in 'view\Unit_PesquisarPedidos.pas' {Form_PesquisarPedidos},
-  Unit_FormCadastrarVendedores in 'view\Unit_FormCadastrarVendedores.pas' {Form_CadastrarVendedores};
+  Unit_FormPesquisarPedidos in 'view\Unit_FormPesquisarPedidos.pas' {Form_PesquisarPedidos},
+  Unit_FormCadastrarVendedores in 'view\Unit_FormCadastrarVendedores.pas' {Form_CadastrarVendedores},
+  Unit_FormCadastrarPedidos in 'view\Unit_FormCadastrarPedidos.pas' {Form_CadastrarPedidos};
 
 {$R *.res}
 begin
@@ -26,5 +27,6 @@ begin
   Application.CreateForm(TForm_PesquisarVendedores, Form_PesquisarVendedores);
   Application.CreateForm(TForm_PesquisarPedidos, Form_PesquisarPedidos);
   Application.CreateForm(TForm_CadastrarVendedores, Form_CadastrarVendedores);
+  Application.CreateForm(TForm_CadastrarPedidos, Form_CadastrarPedidos);
   Application.Run;
 end.
