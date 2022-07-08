@@ -1,0 +1,83 @@
+object Form_CadastrarVendedores: TForm_CadastrarVendedores
+  Left = 0
+  Top = 0
+  Caption = 'Cadastrar Vendedores'
+  ClientHeight = 299
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBEdit_Email: TDBEdit
+    Left = 304
+    Top = 64
+    Width = 281
+    Height = 21
+    DataField = 'ClienteEmail'
+    DataSource = DataModuleConection.DataSource_PesquisarClientes
+    TabOrder = 0
+  end
+  object DBEdit_Telefone: TDBEdit
+    Left = 17
+    Top = 64
+    Width = 264
+    Height = 21
+    DataField = 'ClienteTelefone'
+    DataSource = DataModuleConection.DataSource_PesquisarClientes
+    TabOrder = 1
+  end
+  object DBEdit_Sobrenome: TDBEdit
+    Left = 304
+    Top = 21
+    Width = 281
+    Height = 21
+    DataField = 'ClienteSobreNome'
+    DataSource = DataModuleConection.DataSource_PesquisarClientes
+    TabOrder = 2
+  end
+  object DBEdit_Nome: TDBEdit
+    Left = 17
+    Top = 21
+    Width = 264
+    Height = 21
+    DataField = 'ClienteNome'
+    DataSource = DataModuleConection.DataSource_PesquisarClientes
+    TabOrder = 3
+  end
+  object Panel_CadastrarVendedores: TPanel
+    Left = -6
+    Top = 258
+    Width = 641
+    Height = 41
+    TabOrder = 4
+    object Button1: TButton
+      Left = 548
+      Top = 8
+      Width = 75
+      Height = 25
+      Caption = 'CANCELAR'
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 444
+      Top = 8
+      Width = 75
+      Height = 25
+      Caption = 'LIMPAR'
+      TabOrder = 1
+    end
+    object Button3: TButton
+      Left = 320
+      Top = 8
+      Width = 75
+      Height = 25
+      Caption = 'GUARDAR'
+      TabOrder = 2
+    end
+  end
+end

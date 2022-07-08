@@ -66,6 +66,7 @@ object Form_PesquisarPedidos: TForm_PesquisarPedidos
       Height = 25
       Caption = 'CANCELAR'
       TabOrder = 0
+      OnClick = Button_CancelarClick
     end
     object Button_Limpar: TButton
       Left = 436

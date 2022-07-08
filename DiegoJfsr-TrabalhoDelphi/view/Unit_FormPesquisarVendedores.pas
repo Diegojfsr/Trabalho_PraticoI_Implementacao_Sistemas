@@ -18,6 +18,8 @@ type
     Button_Editar: TButton;
     Button_NovoVendedor: TButton;
     procedure Button_PesquisarVendedoresClick(Sender: TObject);
+    procedure Button_CancelarClick(Sender: TObject);
+    procedure Button_NovoVendedorClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -31,7 +33,17 @@ implementation
 
 {$R *.dfm}
 
-uses Unit_DataModuleConection;
+uses Unit_DataModuleConection, Unit_FormCadastrarVendedores;
+
+procedure TForm_PesquisarVendedores.Button_CancelarClick(Sender: TObject);
+begin
+    close;
+end;
+
+procedure TForm_PesquisarVendedores.Button_NovoVendedorClick(Sender: TObject);
+begin
+      Form_CadastrarVendedores.ShowModal;
+end;
 
 procedure TForm_PesquisarVendedores.Button_PesquisarVendedoresClick(
   Sender: TObject);

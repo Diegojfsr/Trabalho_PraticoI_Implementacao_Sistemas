@@ -18,7 +18,7 @@ type
     LabeledEdit_CpfCnpj: TLabeledEdit;
     LabeledEdit_Sobrenome: TLabeledEdit;
     LabeledEdit_Nome: TLabeledEdit;
-    Panel_PesquisarClientes: TPanel;
+    Panel_CadastrarClientes: TPanel;
     Button1: TButton;
     Button2: TButton;
     Button3: TButton;

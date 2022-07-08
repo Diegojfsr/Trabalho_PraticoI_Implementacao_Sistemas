@@ -58,6 +58,7 @@ object Form_PesquisarVendedores: TForm_PesquisarVendedores
       Height = 25
       Caption = 'CANCELAR'
       TabOrder = 0
+      OnClick = Button_CancelarClick
     end
     object Button_Limpar: TButton
       Left = 436
@@ -83,5 +84,6 @@ object Form_PesquisarVendedores: TForm_PesquisarVendedores
     Height = 25
     Caption = 'NOVO VENDEDOR'
     TabOrder = 4
+    OnClick = Button_NovoVendedorClick
   end
 end

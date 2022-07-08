@@ -104,7 +104,7 @@ object Form_CadastrarClientes: TForm_CadastrarClientes
     EditLabel.Caption = 'Nome'
     TabOrder = 8
   end
-  object Panel_PesquisarClientes: TPanel
+  object Panel_CadastrarClientes: TPanel
     Left = -6
     Top = 258
     Width = 641

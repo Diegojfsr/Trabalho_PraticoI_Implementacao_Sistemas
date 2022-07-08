@@ -18,6 +18,7 @@ type
     Button_Limpar: TButton;
     Button_Editar: TButton;
     procedure Button_PesquisarPedidosClick(Sender: TObject);
+    procedure Button_CancelarClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -32,6 +33,11 @@ implementation
 {$R *.dfm}
 
 uses Unit_DataModuleConection;
+
+procedure TForm_PesquisarPedidos.Button_CancelarClick(Sender: TObject);
+begin
+    close;
+end;
 
 procedure TForm_PesquisarPedidos.Button_PesquisarPedidosClick(Sender: TObject);
 begin
